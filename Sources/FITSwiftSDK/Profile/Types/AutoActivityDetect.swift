@@ -19,5 +19,5 @@ public struct AutoActivityDetectValues: Sendable {
     public static let walking: AutoActivityDetect = 0x00000008
     public static let elliptical: AutoActivityDetect = 0x00000020
     public static let sedentary: AutoActivityDetect = 0x00000400
-    public static let invalid = 0xFFFFFFFF
+    public static let invalid: AutoActivityDetect = 0xFFFFFFFF
 }

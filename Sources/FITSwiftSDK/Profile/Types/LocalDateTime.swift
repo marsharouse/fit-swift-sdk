@@ -13,5 +13,5 @@ public typealias LocalDateTime = UInt32
 
 public struct LocalDateTimeValues: Sendable {
     public static let min: LocalDateTime = 0x10000000
-    public static let invalid = 0xFFFFFFFF
+    public static let invalid: LocalDateTime = 0xFFFFFFFF
 }

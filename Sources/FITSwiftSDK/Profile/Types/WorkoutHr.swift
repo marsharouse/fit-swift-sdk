@@ -13,5 +13,5 @@ public typealias WorkoutHr = UInt32
 
 public struct WorkoutHrValues: Sendable {
     public static let bpmOffset: WorkoutHr = 100
-    public static let invalid = 0xFFFFFFFF
+    public static let invalid: WorkoutHr = 0xFFFFFFFF
 }

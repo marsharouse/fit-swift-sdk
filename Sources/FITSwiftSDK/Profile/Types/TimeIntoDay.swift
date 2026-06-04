@@ -12,5 +12,5 @@
 public typealias TimeIntoDay = UInt32
 
 public struct TimeIntoDayValues: Sendable {
-    public static let invalid = 0xFFFFFFFF
+    public static let invalid: TimeIntoDay = 0xFFFFFFFF
 }

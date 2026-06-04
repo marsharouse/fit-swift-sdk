@@ -12,5 +12,5 @@
 public typealias LocaltimeIntoDay = UInt32
 
 public struct LocaltimeIntoDayValues: Sendable {
-    public static let invalid = 0xFFFFFFFF
+    public static let invalid: LocaltimeIntoDay = 0xFFFFFFFF
 }

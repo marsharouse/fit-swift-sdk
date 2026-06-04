@@ -13,5 +13,5 @@ public typealias WorkoutPower = UInt32
 
 public struct WorkoutPowerValues: Sendable {
     public static let wattsOffset: WorkoutPower = 1000
-    public static let invalid = 0xFFFFFFFF
+    public static let invalid: WorkoutPower = 0xFFFFFFFF
 }
